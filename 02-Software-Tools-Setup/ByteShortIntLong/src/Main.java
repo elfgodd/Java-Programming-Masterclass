@@ -19,6 +19,31 @@ public class Main {
     System.out.println("\n");
     // Another way to print numbers to read them better
     int myMaxIntTest3 = 2_147_483_647;
-    System.out.println(myMaxIntTest3);
+    System.out.println(myMaxIntTest3); // 2147483647
+
+    System.out.println("\n");
+    byte myMinByteValue = Byte.MIN_VALUE;
+    byte myMaxByteValue = Byte.MAX_VALUE;
+    System.out.println("Byte Minimum Value = " + myMinByteValue);
+    System.out.println("Byte Maximum Value = " + myMaxByteValue);
+
+    short myMinShortValue = Short.MIN_VALUE;
+    short myMaxShortValue = Short.MAX_VALUE;
+    System.out.println("Short Minimum Value = " + myMinShortValue);
+    System.out.println("Short Maximum Value = " + myMaxShortValue);
+
+    long myLongValue = 100L;    
+    long myMinLongValue = Long.MIN_VALUE;
+    long myMaxLongValue = Long.MAX_VALUE;
+    System.out.println("Long Minimum Value = " + myMinLongValue);
+    System.out.println("Long Maximum Value = " + myMaxLongValue);
+
+    System.out.println("\n");
+    long bigLongLiteralValue = 2_147_483_647_234L;
+    System.out.println("bigLongLiteralValue = " + bigLongLiteralValue);
+
+    // short bigShortLiteralValue = 32768; // Error: Type mismatch: cannot convert from int to short
+    short bigShortLiteralValue = 32767; 
+
     }
 }
