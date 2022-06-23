@@ -48,7 +48,7 @@ Course Link: https://udemy.com/course/java-the-complete-java-developer-course/
 
 ## Section 2: Software Tools Setup
 
-### 2. Java Development Kit Installation Overview
+### 1. Java Development Kit Installation Overview
 
 Choosing The Right JDK Vendor and JVM:  
 https://www.youtube.com/watch?v=zf-GOkc3Ht8
@@ -56,13 +56,13 @@ https://www.youtube.com/watch?v=zf-GOkc3Ht8
 Java Development Kit: What Version of the JDK Should You Use?:  
 https://www.youtube.com/watch?v=HqU0TF4XNbM
 
-### 3. Install JDK 11 for Windows
+### 2. Install JDK 11 for Windows
 
 Amazon Corretto 11:  
 https://docs.aws.amazon.com/corretto/latest/corretto-11-ug/downloads-list.html
 `java --version`
 
-### 4. Run Java in VSCode
+### 3. Run Java in VSCode
 
 https://www.youtube.com/watch?v=OhofTsLJc8Q
 
