@@ -76,3 +76,8 @@ https://www.youtube.com/watch?v=OhofTsLJc8Q
 8. Click save it will download and IntelliCode models
 9. Click on RUN
 10. Open the Console and see the output
+
+### 4. Primitive Types
+
+The eight primitive data types in Java are boolean, byte, char, short, int, long, float
+and double. Consider these types as the building blocks of data manipulation.

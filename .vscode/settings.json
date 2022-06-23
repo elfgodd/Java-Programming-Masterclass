@@ -1,0 +1,6 @@
+{
+  "java.project.sourcePaths": [
+    "02-Software-Tools-Setup/HelloWorld/src",
+    "02-Software-Tools-Setup/ByteShortIntLong/src"
+  ]
+}
