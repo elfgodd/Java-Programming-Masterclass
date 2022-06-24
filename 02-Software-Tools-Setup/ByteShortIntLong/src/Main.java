@@ -42,8 +42,26 @@ public class Main {
     long bigLongLiteralValue = 2_147_483_647_234L;
     System.out.println("bigLongLiteralValue = " + bigLongLiteralValue);
 
+    System.out.println("\n");
     // short bigShortLiteralValue = 32768; // Error: Type mismatch: cannot convert from int to short
-    short bigShortLiteralValue = 32767; 
+    short bigShortLiteralValue = 32767;
+    System.out.println("bigShortLiteralValue = " + bigShortLiteralValue);
+
+    int myTotal = (myMinIntValue / 2);
+
+    // Type mismatch: cannot convert from int to byte
+    // byte myNewByteValue = (myMinByteValue / 2);
+
+    // Casting in Java, Casting means to treat or convert a number from one
+    // type to another. We put the type we want the number to be in
+    // parenthesis like this:
+    byte myNewByteValue = (byte) (myMinByteValue / 2);
+
+    short myNewShortValue = (short) (myMinShortValue / 2);
+
+
+
+
 
     }
 }
