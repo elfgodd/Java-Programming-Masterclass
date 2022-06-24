@@ -60,7 +60,17 @@ public class Main {
     short myNewShortValue = (short) (myMinShortValue / 2);
 
 
+    // Challenge
+    System.out.println("\n");
+    byte byteValueC = 10;
+    short shortValueC = 20;
+    int intValueC = 50;
 
+    long longTotalC = 50000L + 10L * (byteValueC + shortValueC + intValueC);
+    System.out.println("longTotalC = " + longTotalC);
+
+    short shortTotalC = (short) (1000 + 10 * (byteValueC + shortValueC + intValueC));
+    System.out.println("shortTotalC = " + shortTotalC);
 
 
     }
