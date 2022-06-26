@@ -1,6 +1,9 @@
 {
   "java.project.sourcePaths": [
+    "03-First-Steps/FloatAndDouble/src",
+    "03-First-Steps/ByteShortIntLong/src",
     "02-Software-Tools-Setup/HelloWorld/src",
-    "02-Software-Tools-Setup/ByteShortIntLong/src"
+    "02-Software-Tools-Setup/ByteShortIntLong/src",
+    "03-First-Steps/HelloWorld/src"
   ]
 }
