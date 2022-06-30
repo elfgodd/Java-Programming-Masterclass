@@ -81,3 +81,19 @@ https://www.youtube.com/watch?v=OhofTsLJc8Q
 
 The eight primitive data types in Java are boolean, byte, char, short, int, long, float
 and double. Consider these types as the building blocks of data manipulation.
+
+### 5. The char and boolean Primitive Data
+
+A **char** occupies two bytes of memory, or **16 bits** and thus has a
+width of **16**. The reason it's not just a **single byte** is taht it
+allows you store Unicode characters.
+
+**Unicode** is an international encoding standard for use with different languages and scripts,
+by which each letter, digit, or symbol is assigned a unique numeric value that applies across
+different platforms and programs
+
+https://unicode-table.com/en/
+
+A **boolean** value allows for two choices **True** or **False**, **Yes** or **No**, **1** or **0**.
+In Java terms we have a **boolean** primitive type and it can be set to two values only.
+**true** or **false**. They are actually pretty useful and you will use them a lot when programming
