@@ -97,3 +97,17 @@ https://unicode-table.com/en/
 A **boolean** value allows for two choices **True** or **False**, **Yes** or **No**, **1** or **0**.
 In Java terms we have a **boolean** primitive type and it can be set to two values only.
 **true** or **false**. They are actually pretty useful and you will use them a lot when programming
+
+### 6. Primitive Types Recap and the String Data Type
+
+The **String** is a datatype in Java, which is not a primitve type. It's actually a **Class**,
+but it enjoys a bit of favoritism in Java to make it easier to use than a regular class.
+
+- What is a String?:
+  A **String** is a sequence of characters. In the case of the **char**, it could contain a **single character** only(regular character or Unicode character).
+
+A **String** can contain a sequence of characters. A large number of characters. Technically it's
+limited by memory or the **MAX_VALUE** of an **int** which was **2.14 Billion**. That's a lot
+of characters.
+
+**Strings** in Java are immutable. Tah means you can't change a **String** after it's created. Instead, what happens is a new **String** is created.
