@@ -77,12 +77,14 @@ https://www.youtube.com/watch?v=OhofTsLJc8Q
 9. Click on RUN
 10. Open the Console and see the output
 
-### 4. Primitive Types
+## Section 3: First Steps
+
+### 1. Primitive Types
 
 The eight primitive data types in Java are boolean, byte, char, short, int, long, float
 and double. Consider these types as the building blocks of data manipulation.
 
-### 5. The char and boolean Primitive Data
+### 2. The char and boolean Primitive Data
 
 A **char** occupies two bytes of memory, or **16 bits** and thus has a
 width of **16**. The reason it's not just a **single byte** is taht it
@@ -98,7 +100,7 @@ A **boolean** value allows for two choices **True** or **False**, **Yes** or **N
 In Java terms we have a **boolean** primitive type and it can be set to two values only.
 **true** or **false**. They are actually pretty useful and you will use them a lot when programming
 
-### 6. Primitive Types Recap and the String Data Type
+### 3. Primitive Types Recap and the String Data Type
 
 The **String** is a datatype in Java, which is not a primitve type. It's actually a **Class**,
 but it enjoys a bit of favoritism in Java to make it easier to use than a regular class.
@@ -112,7 +114,7 @@ of characters.
 
 **Strings** in Java are immutable. Tah means you can't change a **String** after it's created. Instead, what happens is a new **String** is created.
 
-### 7. Ternary Operator
+### 4. Ternary Operator
 
 **int ageOfClient = 20;**
 **boolean isEighteenOrOver = ageOfClient == 20 ? true : false;**
@@ -130,10 +132,17 @@ It can be a good idea to use **parentheses** like this to make the code more rea
 
 **boolean is EighteenOrOver = (ageOfClient == 20) ? true : false**
 
-### 8. Operator Precedence and Operator Challenge
+### 5. Operator Precedence and Operator Challenge
 
 Summary of Operators:  
 https://docs.oracle.com/javase/tutorial/java/nutsandbolts/opsummary.html
 
 Java Operator Precedence Table:  
 http://www.cs.bilkent.edu.tr/~guvenir/courses/CS101/op_precedence.html
+
+## Section 4: Java Tutorial: Expressions, Statements, Code blocks, Methods and more
+
+### 1. Keywords And Expressions
+
+List of Java keywords:  
+https://en.wikipedia.org/wiki/List_of_Java_keywords
