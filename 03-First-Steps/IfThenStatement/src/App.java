@@ -39,5 +39,17 @@ public class App {
         if (topScore > secondTopScore && topScore < 100) {
           System.out.println("Greater than secondTopScore and less than 100");
         }
+
+        System.out.println("\n");
+        // Easier to read with parenthesis
+        if ((topScore > secondTopScore) && (topScore < 100)) {
+          System.out.println("Greater than secondTopScore and less than 100");
+        }
+        topScore = 80;
+        secondTopScore = 95;
+        // This code won't run
+        if((topScore > 90) || (secondTopScore <= 90)) {
+          System.out.println("Either or both of the conditions are true");
+        }
     }
 }
