@@ -111,3 +111,21 @@ limited by memory or the **MAX_VALUE** of an **int** which was **2.14 Billion**.
 of characters.
 
 **Strings** in Java are immutable. Tah means you can't change a **String** after it's created. Instead, what happens is a new **String** is created.
+
+### 7. Ternary Operator
+
+**int ageOfClient = 20;**
+**boolean isEighteenOrOver = ageOfClient == 20 ? true : false;**
+
+Operand one - **ageOfClient == 20;** in this case is the condition we are checking.
+It needs to return **true** or **false**
+
+Operand two - **true** here is the value to assign to the variable **isEighteenOrOver**
+if the condition above is **true**
+
+Operand three - **false** here is the value to assign to the variable **isEighteenOrOver**
+if the condition above was **false**
+
+It can be a good idea to use **parentheses** like this to make the code more readable
+
+**boolean is EighteenOrOver = (ageOfClient == 20) ? true : false**
