@@ -129,3 +129,11 @@ if the condition above was **false**
 It can be a good idea to use **parentheses** like this to make the code more readable
 
 **boolean is EighteenOrOver = (ageOfClient == 20) ? true : false**
+
+### 8. Operator Precedence and Operator Challenge
+
+Summary of Operators:  
+https://docs.oracle.com/javase/tutorial/java/nutsandbolts/opsummary.html
+
+Java Operator Precedence Table:  
+http://www.cs.bilkent.edu.tr/~guvenir/courses/CS101/op_precedence.html
