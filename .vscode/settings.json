@@ -3,12 +3,13 @@
     "04-Expressions-Statements-Codeblocks/MethodOverloading/src",
     "04-Expressions-Statements-Codeblocks/Exercises/SpeedConverter/src",
     "04-Expressions-Statements-Codeblocks/Exercises/MegaBytesConverter/src",
+    "04-Expressions-Statements-Codeblocks/Exercises/LeapYearCalculator/src",
     "04-Expressions-Statements-Codeblocks/Exercises/BarkingDog/src",
     "03-First-Steps/OperatorsOperandsAndExpressions/src",
     "03-First-Steps/HelloWorld/src",
     "03-First-Steps/FloatAndDouble/src",
     "03-First-Steps/ByteShortIntLong/src",
-    "04-Expressions-Statements-Codeblocks/Exercises/LeapYearCalculator/src"
+    "04-Expressions-Statements-Codeblocks/SecondsandMinutesChallenge/src"
   ],
   "java.jdt.ls.vmargs": "-XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx2G -Xms100m"
 }

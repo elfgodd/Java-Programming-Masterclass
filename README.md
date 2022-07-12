@@ -146,3 +146,23 @@ http://www.cs.bilkent.edu.tr/~guvenir/courses/CS101/op_precedence.html
 
 List of Java keywords:  
 https://en.wikipedia.org/wiki/List_of_Java_keywords
+
+### 2. Method Overloading
+
+- **Method overloading** is a feature that allows us to have more than one method
+  with the **same name**, so long as we use **different parameters**.
+- It is the ability to create multiple methods of the same name with different implementations.
+- Calls to an overloaded method will run a specific implementation of that method.
+- Same name easier to remember
+
+```
+public static int sum (int a, int b) {
+  return a + b;
+}
+public static int sum (int a, int b, int c) {
+  return a + b + c;
+}
+public static int sum (int a, int b, int c, int d) {
+  return a + b + c + d;
+}
+```
