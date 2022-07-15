@@ -1,8 +1,6 @@
-import javax.sound.sampled.SourceDataLine;
-
 public class Main {
     public static void main(String[] args) {
-        
+
         float myMinFloatValue = Float.MIN_VALUE;
         float myMaxFloatValue = Float.MAX_VALUE;
         System.out.println("Float minimum value = " + myMinFloatValue);
@@ -15,8 +13,9 @@ public class Main {
         System.out.println("Double maximum value = " + myMaxDoubleValue);
 
         int myIntValue = 5;
-        // float myFloatValue = 5.25; // Type mismatch: cannot convert from double to float
-        
+        // float myFloatValue = 5.25; // Type mismatch: cannot convert from double to
+        // float
+
         // Long way to convert float to float
         // float myFloatValue = (float) 5.25;
         System.out.println("\n");

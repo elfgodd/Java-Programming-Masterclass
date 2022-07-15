@@ -1,5 +1,3 @@
-import java.lang.management.ClassLoadingMXBean;
-
 public class App {
   public static void main(String[] args) throws Exception {
     int newScore = calculateScore("Alberto", 500);
