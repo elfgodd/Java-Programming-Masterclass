@@ -1,6 +1,7 @@
 {
   "java.project.sourcePaths": [
     "05-Control-Flow-Statements/Switch/src",
+    "05-Control-Flow-Statements/Sum3And5Challenge/src",
     "05-Control-Flow-Statements/ForStatement/src",
     "05-Control-Flow-Statements/DayOfTheWeekChallenge/src",
     "04-Expressions-Statements-Codeblocks/SecondsandMinutesChallenge/src",
@@ -13,7 +14,7 @@
     "03-First-Steps/HelloWorld/src",
     "03-First-Steps/FloatAndDouble/src",
     "03-First-Steps/ByteShortIntLong/src",
-    "05-Control-Flow-Statements/Sum3And5Challenge/src"
+    "05-Control-Flow-Statements/WhileAndDoWhileAndChallenge/src"
   ],
   "java.jdt.ls.vmargs": "-XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx2G -Xms100m"
 }
