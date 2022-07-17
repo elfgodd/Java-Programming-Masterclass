@@ -168,3 +168,18 @@ public static int sum (int a, int b, int c, int d) {
 ```
 
 ## Section 5: Control Flow Statements
+
+### 1. The While, Do While break and continue Recap
+
+- The **while** loop checks the condition at the start before executing the block.
+- With the **do while** loop the code block is executed at least once and then
+  the condition is checked.
+- Be careful with conditions, it is **easy** to end up with endless loop in other
+  words a loop that never ends or to end up with loop that never executes.
+- **Tip: always check your conditions/expressions.**
+
+- We can interrupt the loop by using a **continue** and/or a **break** statement.
+- With the **continue** keyword the loop will bypass the part of code block that
+  is below the **continue** keyword and continue with the next iteration.
+- With the **break** keyword we can exit the loop depending on the condition
+  that we are checking.
