@@ -6,4 +6,17 @@ public class Car {
   private String engine;
   private String color;
 
+  public void setModel(String model) {
+    String validModel = model.toLowerCase();
+    if (validModel.equals("carrera") || (validModel.equals("commodore"))) {
+      this.model = model;
+    } else {
+      System.out.println("Invalid Model");
+    }
+  }
+
+  public String getModel() {
+    return this.model;
+  }
+
 }
