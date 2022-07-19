@@ -183,3 +183,5 @@ public static int sum (int a, int b, int c, int d) {
   is below the **continue** keyword and continue with the next iteration.
 - With the **break** keyword we can exit the loop depending on the condition
   that we are checking.
+
+## Section 6: OOP Part 1 - Classes, Constructors, and Inheritance
