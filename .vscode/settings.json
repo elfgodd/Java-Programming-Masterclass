@@ -1,5 +1,7 @@
 {
   "java.project.sourcePaths": [
+    "06-OOP-Part-1/InheritancePart1/src",
+    "06-OOP-Part-1/Exercises/Cylinder/src",
     "06-OOP-Part-1/ConstructorsPart1ChallengeExercise/src",
     "06-OOP-Part-1/ClassesPart1And2/src",
     "05-Control-Flow-Statements/WhileAndDoWhileAndChallenge/src",
@@ -20,7 +22,7 @@
     "03-First-Steps/HelloWorld/src",
     "03-First-Steps/FloatAndDouble/src",
     "03-First-Steps/ByteShortIntLong/src",
-    "06-OOP-Part-1/Exercises/Cylinder/src"
+    "06-OOP-Part-1/InheritancePart1And2/src"
   ],
   "java.jdt.ls.vmargs": "-XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx2G -Xms100m"
 }
