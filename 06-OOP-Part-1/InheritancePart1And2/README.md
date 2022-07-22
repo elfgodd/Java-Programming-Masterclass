@@ -1,1 +1,1 @@
-## Inheritance - Part 1
+## Inheritance - Part 1 and Part 2
