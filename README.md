@@ -185,3 +185,64 @@ public static int sum (int a, int b, int c, int d) {
   that we are checking.
 
 ## Section 6: OOP Part 1 - Classes, Constructors, and Inheritance
+
+### 1. Method Overloading vs Overriding Recap
+
+**Method Overloading**
+
+- provides functionality to reuse a method name with different parameters.
+- Usually in a single class but may also be used in a child class.
+- **Must have** different parameters.
+- May have different return types.
+- May have different access modifiers (private, protected, public).
+- May throw different exceptions.
+
+**Method Overriding**
+
+- Used to override a behavior which the class has inherited from the parent class.
+- **Always in two classes** that have a child-parent or IS-A relationship.
+- **Must have** the same parameters and same name.
+- Must have the same return type or covariant return type (child class).
+- **Must NOT** have a lower modifier but may have a higher modifier.
+- **Must NOT** throw a new or broader checked exception.
+
+### 2. Static vs Instance Methods
+
+- **Static methods** are declared using a **static** modifier.
+- **Static methods can't** access instance methods and instance variables directly.
+- They are usually used for operations that don't require any data from an instance
+  of the class (from 'this').
+- If you remember, the this keyword is the current instance of a class.
+- In **static methods** we can't use the **this** keyword.
+- Whenever you see a method that **does not use instance variables** that method
+  should be declared as a **static method**.
+- For example main is a static method and it is called by the JVM when it starts an application
+
+- **Instance Methods** belong to an instance of a class.
+- To use an **instance method** we have to instantiate the class first usually by using the
+  **new** keyword.
+- **Instance methods** can access instance methods and instance variables directly.
+- **Instance methods** can also access static methods and static variables directly.
+
+Should a method be static?
+Does it use any fields (instance variables) or instance methods?
+**Yes**: It should probably be an **instance method**
+**No**: It should probably be a **static method**
+
+### 3. Static vs Instance Variables
+
+- Declared by using the keyword static.
+- **Static variables** are also known as **static member variables**.
+- Every instance of that class **shares** the same static variable\*\*
+- If changes are made to that variable, all other instances will see
+  the effect of the change.
+- **Static variables** are not used very often but can sometimes be very useful.
+- For example when reading user input using **Scanner** we will declare scanner
+  as a static variable.
+- That way **static methods** can access it directly.
+- The **don't** use the **static** keyword.
+- Instance variables are also known as fields or member variables.
+- **Instance variables** belong to an instance of a class.
+- Every instance has it's own copy of an instance variable.
+- Every instance can have a different value (state).
+- Instance variables represent the state of an instance.
