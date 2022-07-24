@@ -246,3 +246,5 @@ Does it use any fields (instance variables) or instance methods?
 - Every instance has it's own copy of an instance variable.
 - Every instance can have a different value (state).
 - Instance variables represent the state of an instance.
+
+## Section 7: OOP Part 2 - Composition, Encapsulation, and Polymorphism
