@@ -1,5 +1,7 @@
 {
   "java.project.sourcePaths": [
+    "07-OOP-Part-2/OOPMasterChallengeExercise/src",
+    "07-OOP-Part-2/PolymorphismExercise/src",
     "07-OOP-Part-2/PolymorphismChallenge/src",
     "07-OOP-Part-2/Polymorphism/src",
     "07-OOP-Part-2/EncapsulationChallenge/src",
@@ -27,8 +29,7 @@
     "03-First-Steps/OperatorsOperandsAndExpressions/src",
     "03-First-Steps/HelloWorld/src",
     "03-First-Steps/FloatAndDouble/src",
-    "03-First-Steps/ByteShortIntLong/src",
-    "07-OOP-Part-2/PolymorphismExercise/src"
+    "03-First-Steps/ByteShortIntLong/src"
   ],
   "java.jdt.ls.vmargs": "-XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx2G -Xms100m"
 }
