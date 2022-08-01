@@ -248,3 +248,5 @@ Does it use any fields (instance variables) or instance methods?
 - Instance variables represent the state of an instance.
 
 ## Section 7: OOP Part 2 - Composition, Encapsulation, and Polymorphism
+
+## Section 8: Arrays, Java inbuilt Lists, Autoboxing and Unboxing
