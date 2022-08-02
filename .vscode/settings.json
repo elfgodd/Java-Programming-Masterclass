@@ -1,5 +1,6 @@
 {
   "java.project.sourcePaths": [
+    "08-Arrays-JavaInBuiltLists-AutoBoxing-Unboxing/Arrays/src",
     "07-OOP-Part-2/PolymorphismExercise/src",
     "07-OOP-Part-2/PolymorphismChallenge/src",
     "07-OOP-Part-2/Polymorphism/src",
@@ -30,7 +31,7 @@
     "03-First-Steps/HelloWorld/src",
     "03-First-Steps/FloatAndDouble/src",
     "03-First-Steps/ByteShortIntLong/src",
-    "08-Arrays-JavaInBuiltLists-AutoBoxing-Unboxing/Arrays/src"
+    "08-Arrays-JavaInBuiltLists-AutoBoxing-Unboxing/Arrays2/src"
   ],
   "java.jdt.ls.vmargs": "-XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx2G -Xms100m"
 }

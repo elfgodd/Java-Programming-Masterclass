@@ -18,12 +18,24 @@ public class App {
         System.out.println(arrayShortCut);
 
         System.out.println("\n");
-        int[] forLoopArray = new int[10];
+        int[] forLoopArray = new int[5];
         for (int i = 0; i < forLoopArray.length; i++) {
             forLoopArray[i] = i * 10;
         }
-        for (int i = 0; i <= forLoopArray.length; i++) {
-            System.out.println("Element " + i + ", value is " + forLoopArray[i]);
+        for (int i = 0; i < forLoopArray.length; i++) {
+            System.out.println("forLo´Array: Element " + i + ", value is " + forLoopArray[i]);
+        }
+
+        System.out.println("\n");
+        // for (int i = 0; i < forLoopArray.length; i++) {
+        // forLoopArray[i] = i * 10;
+        // }
+        printArray(forLoopArray);
+    }
+
+    public static void printArray(int[] array) {
+        for (int i = 0; i < array.length; i++) {
+            System.out.println("printArray: Element " + i + ", value is " + array[i]);
         }
     }
 }
