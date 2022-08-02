@@ -250,3 +250,28 @@ Does it use any fields (instance variables) or instance methods?
 ## Section 7: OOP Part 2 - Composition, Encapsulation, and Polymorphism
 
 ## Section 8: Arrays, Java inbuilt Lists, Autoboxing and Unboxing
+
+### 1. Arrays Recap
+
+- An array is a data structure that allows you to store multiple values of the same type into a single variable.
+- The default values of numeric array elements are set to **zero**.
+- Arrays are **zero indexed**: an array with **n elements** is indexed **from 0 to n-1**, for example **10 elements index range is from 0 to 9**.
+- If we try to access index that is out of range Java will give us an **ArrayIndexOutOfBoundsException**, which indicates that the index if out of a range in other words out of bounds.
+- To access array elements we use the square braces **[ and ]**, also known as array access operator.
+
+Example of creating a new array  
+int[] array = new int[5];
+
+- This array contains the elements from **array[0]** to **array[4]**.
+- It has **5 elements** and index range **0 to 4**.
+- The **new** operator or keyword is used to create the array and initialize the array elements to their default values.
+- In this example, all the array, all the array elements are initialized to zero since this is an int array.
+- For **boolean** array elements they would be initialized to **false**.
+- For **string or other objects** that would be **null**, but we will talk more about **null** and what it is later in the course.
+
+int[] myNumbers = {5, 4, 3, 2, 1};
+
+- We can also initiliaze an array inline by using array initializer block **{ and }**. Values we defined need to be separated by a comma.
+- This way of initializing an array is also known as an anonymous array.
+- It has **5 elements** and index range **0 to 4**.
+- In this example, array elements are initialized to 5, 4, 3, 2, 1.
