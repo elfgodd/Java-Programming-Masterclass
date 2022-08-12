@@ -1,6 +1,8 @@
+import java.util.ArrayList;
+
 public class Branch {
   private String name;
-  private ArrayList<Customer> customer;
+  private ArrayList<Customer> customers;
 
   public Branch(String name) {
     this.name = name;
@@ -35,7 +37,7 @@ public class Branch {
   }
 
   private Customer findCustomer(String customerName) {
-    for (int i = 0; i < this.customers.size; i++) {
+    for (int i = 0; i < this.customers.size(); i++) {
       Customer checkedCustomer = this.customers.get(i);
       if (checkedCustomer.getName().equals(customerName)) {
         return checkedCustomer;
