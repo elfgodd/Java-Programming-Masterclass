@@ -5,6 +5,7 @@
     "08-Arrays-JavaInBuiltLists-AutoBoxing-Unboxing/ExerciseReverseArray/src",
     "08-Arrays-JavaInBuiltLists-AutoBoxing-Unboxing/ChallengeReverseArray/src",
     "08-Arrays-JavaInBuiltLists-AutoBoxing-Unboxing/ChallengeMinimumElement/src",
+    "08-Arrays-JavaInBuiltLists-AutoBoxing-Unboxing/ChallengeAutoboxingUnboxing/src",
     "08-Arrays-JavaInBuiltLists-AutoBoxing-Unboxing/ChallengeArrayListPart1-2-3/src",
     "08-Arrays-JavaInBuiltLists-AutoBoxing-Unboxing/AutoboxingAndUnboxing/src",
     "08-Arrays-JavaInBuiltLists-AutoBoxing-Unboxing/ArraysChallengeExercise/src",
@@ -40,7 +41,7 @@
     "03-First-Steps/HelloWorld/src",
     "03-First-Steps/FloatAndDouble/src",
     "03-First-Steps/ByteShortIntLong/src",
-    "08-Arrays-JavaInBuiltLists-AutoBoxing-Unboxing/ChallengeAutoboxingUnboxing/src"
+    "08-Arrays-JavaInBuiltLists-AutoBoxing-Unboxing/LinkedList/src"
   ],
   "java.jdt.ls.vmargs": "-XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx2G -Xms100m"
 }
