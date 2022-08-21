@@ -8,7 +8,7 @@ public class DeskPhone implements ITelephone {
 
   @Override
   public void powerOn() {
-    System.out.println("No Action taken, desk phone doest not have a power button");
+    System.out.println("No action taken, desk phone does not have a power button");
   }
 
   @Override
