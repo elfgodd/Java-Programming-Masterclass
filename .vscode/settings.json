@@ -1,6 +1,7 @@
 {
   "java.project.sourcePaths": [
     "09-Inner-AbstractClasses-Interfaces/Interfaces/src",
+    "09-Inner-AbstractClasses-Interfaces/Interfaces-LinkedList/src",
     "08-Arrays-JavaInBuiltLists-AutoBoxing-Unboxing/RefTypesVSValueTypes/src",
     "08-Arrays-JavaInBuiltLists-AutoBoxing-Unboxing/ListAndArrayList/src",
     "08-Arrays-JavaInBuiltLists-AutoBoxing-Unboxing/LinkedList/src",
@@ -44,7 +45,7 @@
     "03-First-Steps/HelloWorld/src",
     "03-First-Steps/FloatAndDouble/src",
     "03-First-Steps/ByteShortIntLong/src",
-    "09-Inner-AbstractClasses-Interfaces/Interfaces-LinkedList/src"
+    "09-Inner-AbstractClasses-Interfaces/ChallengeInterfaces/src"
   ],
   "java.jdt.ls.vmargs": "-XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx2G -Xms100m"
 }
